@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonte -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/styles.css">
+
+  <link rel="icon" href="src/imagens/estrela_hamburguer_250x150.png">
+  <title>Stars Burgers</title>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="top-bar">
+  <nav class="navbar">
+
+    <div class="nav-left">
+      <img src="src/imagens/estrela_hamburguer_250x150.png" class="logo" alt="Stars Burgers">
+      <h1>Stars Burgers</h1>
+    </div>
+
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#sobre-nos">Sobre Nós</a></li>
+    </ul>
+
+    <button id="open-cart" class="btn-default">
+      🛒 Carrinho (<span id="cart-count">0</span>)
+    </button>
+
+  </nav>
+</header>
+
+<!-- ================= MODAL CARRINHO ================= -->
+<div id="cart-modal" class="cart-modal">
+  <div class="cart-content">
+
+    <div class="cart-header">
+      <h2>🛒 Seu Carrinho</h2>
+      <button id="close-cart">✖</button>
+    </div>
+
+    <ul id="cart-items"></ul>
+
+    <div class="cart-footer">
+      <p>Total: <strong>R$ <span id="cart-total">0.00</span></strong></p>
+      <button id="checkout" class="btn-primary">Finalizar Pedido</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+<!-- HOME -->
+<section class="menu-section" id="home">
+  <div class="home-content">
+    <h1>Bem-vindo à Stars Burgers</h1>
+    <p>Os melhores hambúrgueres artesanais da cidade!</p>
+    <a href="#cardapio" class="btn-primary">Ver Cardápio</a>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section class="menu-section" id="cardapio">
+  <h2>Nosso Cardápio</h2>
+
+  <!-- HAMBÚRGUERES -->
+  <h3>Hambúrgueres</h3>
+  <div class="menu-cards">
+
+    <div class="card">
+      <img src="src/imagens/hambuguer classico.png">
+      <h3>Hambúrguer Clássico</h3>
+      <p>Carne, queijo, alface e tomate.</p>
+      <span class="price">R$ 25,00</span>
+      <button class="add-to-cart" data-name="Hambúrguer Clássico" data-price="25">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="card">
+      <img src="src/imagens/hamburguer de bacon.png">
+      <h3>Hambúrguer Bacon</h3>
+      <p>Carne, bacon crocante e queijo.</p>
+      <span class="price">R$ 28,00</span>
+      <button class="add-to-cart" data-name="Hambúrguer Bacon" data-price="28">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+
+  <!-- COMBOS -->
+  <h3>Combos</h3>
+  <div class="menu-cards">
+
+    <div class="card">
+      <img src="src/imagens/combo classico.png">
+      <h3>Combo Clássico</h3>
+      <span class="price">R$ 65,00</span>
+      <button class="add-to-cart" data-name="Combo Clássico" data-price="65">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="card">
+      <img src="src/imagens/combo de bacon.png">
+      <h3>Combo Bacon</h3>
+      <span class="price">R$ 75,00</span>
+      <button class="add-to-cart" data-name="Combo Bacon" data-price="75">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+
+  <!-- ACOMPANHAMENTOS -->
+  <h3>Acompanhamentos</h3>
+  <div class="menu-cards">
+
+    <div class="card">
+      <img src="src/imagens/batata frita.png">
+      <h3>Batata Frita</h3>
+      <span class="price">R$ 15,00</span>
+      <button class="add-to-cart" data-name="Batata Frita" data-price="15">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="card">
+      <img src="src/imagens/aneis de cebolas.png">
+      <h3>Anéis de Cebola</h3>
+      <span class="price">R$ 18,00</span>
+      <button class="add-to-cart" data-name="Anéis de Cebola" data-price="18">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+
+  <!-- BEBIDAS -->
+  <h3>Bebidas</h3>
+  <div class="menu-cards">
+
+    <div class="card">
+      <img src="src/imagens/coca-cola.png">
+      <h3>Coca-Cola</h3>
+      <span class="price">R$ 8,00</span>
+      <button class="add-to-cart" data-name="Coca-Cola" data-price="8">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="card">
+      <img src="src/imagens/suco na garrafa.png">
+      <h3>Suco Natural</h3>
+      <span class="price">R$ 12,00</span>
+      <button class="add-to-cart" data-name="Suco Natural" data-price="12">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+
+  <!-- SOBREMESAS -->
+  <h3>Sobremesas</h3>
+  <div class="menu-cards">
+
+    <div class="card">
+      <img src="src/imagens/mouse de chocolate.png">
+      <h3>Mousse de Chocolate</h3>
+      <span class="price">R$ 15,00</span>
+      <button class="add-to-cart" data-name="Mousse de Chocolate" data-price="15">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="card">
+      <img src="src/imagens/soverte de chocolate.png">
+      <h3>Sorvete</h3>
+      <span class="price">R$ 10,00</span>
+      <button class="add-to-cart" data-name="Sorvete" data-price="10">Adicionar ao Carrinho</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre-nos" id="sobre-nos">
+  <div class="sobre-container">
+    <h2>Sobre Nós</h2>
+    <p>Hambúrgueres artesanais feitos com paixão e qualidade.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 - Stars Burgers</p>
+</footer>
+
+<script src="src/javascript/script.js"></script>
+</body>
+</html>
