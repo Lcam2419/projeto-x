@@ -1,4 +1,4 @@
-# 🥷 NinjaKicks
+# stars burguers
 
 > Projeto de e-commerce desenvolvido com foco em Front-end, responsividade e experiência do usuário.
 
@@ -8,7 +8,6 @@
 
 🔗 https://lcam2419.github.io/projeto-x/
 
-🔗 https://github.com/Lcam2419/ninjakicks
 
 ---
 
