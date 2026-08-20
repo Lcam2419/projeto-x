@@ -25,11 +25,12 @@ O objetivo foi criar uma experiência visual agradável para apresentar uma hamb
 ## 🌐 Projeto
 
 🔗 **Acesse o projeto:**
-[Stars Burgers](COLOQUE_AQUI_O_LINK_DO_SEU_PROJETO)
+[Stars Burgers](https://lcam2419.github.io/Stars-Burgers/)
 
 ## 📷 Preview
 
-![Preview do Stars Burgers](COLOQUE_AQUI_O_LINK_DA_IMAGEM)
+<img width="1879" height="900" alt="image" src="https://github.com/user-attachments/assets/05675b56-4a98-44d9-8fdc-3aa1ab5baa37" />
+
 
 ## 🎯 Objetivo do projeto
 
