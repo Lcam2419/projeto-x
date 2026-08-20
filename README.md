@@ -1,71 +1,48 @@
-# stars burguers
+# 🍔 Stars Burgers
 
-> Projeto de e-commerce desenvolvido com foco em Front-end, responsividade e experiência do usuário.
+Projeto de site para uma hamburgueria, desenvolvido com foco em **desenvolvimento Front-End**, criação de interfaces modernas e responsivas.
 
----
+## 📸 Sobre o projeto
 
-## 🚀 Acesse o projeto
+O **Stars Burgers** foi desenvolvido como um projeto prático para aplicar conhecimentos de desenvolvimento web e criação de interfaces.
 
-🔗 https://lcam2419.github.io/projeto-x/
+O objetivo foi criar uma experiência visual agradável para apresentar uma hamburgueria e seus produtos.
 
+## 🛠️ Tecnologias utilizadas
 
----
+* HTML5
+* CSS3
+* JavaScript
 
-## 📸 Preview
+## ✨ Destaques
 
-<img width="1891" height="906" alt="image" src="https://github.com/user-attachments/assets/e8a7ac53-c290-4774-b182-9c0ccdb5ee04" />
+* 🍔 Interface voltada para uma hamburgueria
+* 📱 Layout responsivo
+* 🎨 Estilização personalizada com CSS
+* 💻 Estrutura desenvolvida com HTML
+* ⚡ Interações utilizando JavaScript
 
+## 🌐 Projeto
 
----
+🔗 **Acesse o projeto:**
+[Stars Burgers](COLOQUE_AQUI_O_LINK_DO_SEU_PROJETO)
 
-## 🛍️ Funcionalidades
+## 📷 Preview
 
-- Carrinho de compras com localStorage
-- Simulação de pagamento (Pix e Cartão)
-- Navegação entre páginas
-- Layout responsivo
-- Interface moderna (preto + vermelho)
-- Efeitos visuais e interações
+![Preview do Stars Burgers](COLOQUE_AQUI_O_LINK_DA_IMAGEM)
 
----
+## 🎯 Objetivo do projeto
 
-## 💻 Tecnologias
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## 🎯 Objetivo
-
-Criar uma simulação de loja virtual com foco em:
-
-- experiência do usuário
-- design moderno
-- funcionalidades reais de e-commerce
-
----
-
-## 🧠 Aprendizados
-
-- Manipulação de DOM
-- Lógica de carrinho
-- Responsividade
-- Organização de código
-
----
-
-## 🚀 Melhorias futuras
-
-- Filtro de produtos
-- Página individual de produto
-- Integração com backend
-- Melhor UX no carrinho
-
----
+Este projeto foi desenvolvido com o objetivo de praticar e aprimorar conhecimentos em **HTML, CSS e JavaScript**, além de desenvolver habilidades na criação de interfaces para projetos web.
 
 ## 👨‍💻 Autor
 
-Lucas Alexandre  
-https://github.com/Lcam2419
+**Lucas Alexandre**
+
+💻 Desenvolvedor Front-End em formação
+🎓 Estudante de Análise e Desenvolvimento de Sistemas
+
+🔗 [GitHub](https://github.com/Lcam2419)
+
+🌐 [Portfólio](https://lcam2419.github.io/Meu-Portifolio/)
+
