@@ -13,7 +13,8 @@
 
 ## 📸 Preview
 
-![Preview](scr/img/logo.png)
+<img width="1891" height="906" alt="image" src="https://github.com/user-attachments/assets/e8a7ac53-c290-4774-b182-9c0ccdb5ee04" />
+
 
 ---
 
